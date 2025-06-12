@@ -3,6 +3,7 @@ import { Link } from 'react-router';
 import loginLottie from '../assets/lottie/login.json';
 import Lottie from 'lottie-react';
 import { AuthContext } from '../contexts/AuthContext';
+import SocialLogin from './SocialLogin';
 
 const Login = () => {
     const {userLogin}=use(AuthContext);
@@ -44,6 +45,7 @@ const Login = () => {
                                 </p>
                             </fieldset>
                         </form>
+                        <SocialLogin></SocialLogin>
                         {/* <SocialLogin from={from}></SocialLogin> */}
                     </div>
                 </div>

@@ -3,6 +3,7 @@ import { Link } from 'react-router';
 import registerLottie from '../assets/lottie/register.json';
 import Lottie from 'lottie-react';
 import { AuthContext } from '../contexts/AuthContext';
+import SocialLogin from './SocialLogin';
 
 const Register = () => {
     const {createUser}=use(AuthContext);
@@ -44,6 +45,7 @@ const Register = () => {
                             </fieldset>
 
                         </form>
+                        <SocialLogin></SocialLogin>
                     </div>
                 </div>
             </div>
