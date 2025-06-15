@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "coverImage": "https://static-01.daraz.com.bd/p/dea2e98a316b7c772e1ae906c63260c4.jpg",
+    "upvotes": 1900
+  },
+  {
+    "id": "2",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "coverImage": "https://bookowlsbd.com/cdn/shop/files/Book-owls_covers_2.png?v=1711660660",
+    "upvotes": 1750
+  },
+  {
+    "id": "3",
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "coverImage": "https://static-01.daraz.com.bd/p/3176d2661882d162074e1f97c4b59b77.jpg",
+    "upvotes": 1620
+  },
+  {
+    "id": "4",
+    "title": "The Power of Now",
+    "author": "Eckhart Tolle",
+    "coverImage": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1689947880l/6708.jpg",
+    "upvotes": 1580
+  },
+  {
+    "id": "5",
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert T. Kiyosaki",
+    "coverImage": "https://bookbinbd.com/wp-content/uploads/2024/09/81BE7eeKzAL._SL1500_.jpg",
+    "upvotes": 1540
+  },
+  {
+    "id": "6",
+    "title": "1984",
+    "author": "George Orwell",
+    "coverImage": "https://static-01.daraz.com.bd/p/83cb389fea6e3d5df2f85d9bee2949fc.jpg",
+    "upvotes": 1475
+  },
+  {
+    "id": "7",
+    "title": "Think and Grow Rich",
+    "author": "Napoleon Hill",
+    "coverImage": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1436417590i/25415560.jpg",
+    "upvotes": 1450
+  },
+  {
+    "id": "8",
+    "title": "Start With Why",
+    "author": "Simon Sinek",
+    "coverImage": "https://diamu.com.bd/wp-content/uploads/2021/12/Start-with-Why.jpg",
+    "upvotes": 1390
+  },
+  {
+    "id": "9",
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "coverImage": "https://i0.wp.com/sellular.com.bd/wp-content/uploads/2025/03/9780099590088.jpg?fit=319%2C490&ssl=1",
+    "upvotes": 1335
+  }
+]
