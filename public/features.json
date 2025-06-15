@@ -1,0 +1,56 @@
+[
+  {
+    "book_title": "Where the Crawdads Sing",
+    "cover_photo": "https://m.media-amazon.com/images/I/81O1oy0y9eL._AC_UF1000,1000_QL80_.jpg",
+    "book_author": "Delia Owens",
+    "book_category": "Fiction"
+  },
+  {
+    "book_title": "The Midnight Library",
+    "cover_photo": "https://m.media-amazon.com/images/I/71hs+3BrMPL._AC_UF1000,1000_QL80_.jpg",
+    "book_author": "Matt Haig",
+    "book_category": "Fiction"
+  },
+  {
+    "book_title": "Normal People",
+    "cover_photo": "https://m.media-amazon.com/images/I/81bJ5RrUQCL._AC_UF1000,1000_QL80_.jpg",
+    "book_author": "Sally Rooney",
+    "book_category": "Fiction"
+  },
+  {
+    "book_title": "The Body Keeps the Score",
+    "cover_photo": "https://fortelabs.com/wp-content/uploads/2019/10/TBKTS.png",
+    "book_author": "Bessel van der Kolk",
+    "book_category": "Non-Fiction"
+  },
+  {
+    "book_title": "Outliers",
+    "cover_photo": "https://m.media-amazon.com/images/I/81jVgWvXCiL._AC_UF1000,1000_QL80_.jpg",
+    "book_author": "Malcolm Gladwell",
+    "book_category": "Non-Fiction"
+  },
+  {
+    "book_title": "Born a Crime",
+    "cover_photo": "https://cdn.shopify.com/s/files/1/0625/6679/3413/files/Born_20a_20Crime.jpg?v=1716628815",
+    "book_author": "Trevor Noah",
+    "book_category": "Biography"
+  },
+  {
+    "book_title": "A Court of Thorns and Roses",
+    "cover_photo": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1620324329i/50659467.jpg",
+    "book_author": "Sarah J. Maas",
+    "book_category": "Fantasy"
+  },
+  {
+    "book_title": "Shadow and Bone",
+    "cover_photo": "https://m.media-amazon.com/images/I/71djgWsyDML._AC_UF1000,1000_QL80_.jpg",
+    "book_author": "Leigh Bardugo",
+    "book_category": "Fantasy"
+  },
+  {
+    "book_title": "The Priory of the Orange Tree",
+    "cover_photo": "https://m.media-amazon.com/images/I/91y6sK5Z3LL._AC_UF1000,1000_QL80_.jpg",
+    "book_author": "Samantha Shannon",
+    "book_category": "Fantasy"
+  }
+]
