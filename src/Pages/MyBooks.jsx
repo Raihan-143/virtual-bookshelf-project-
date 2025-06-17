@@ -6,18 +6,20 @@ import { Link } from 'react-router';
 
 
 const MyBooks = () => {
-  const { user } = useContext(AuthContext);
+  const { user, loading } = useContext(AuthContext);
+
   const [books, setBooks] = useState([]);
   console.log('books',books)
 console.log('user',user.email);
-  useEffect(() => {
-    
-     fetch(`http://localhost:5000/user/books?email=${encodeURIComponent(user.email)}`)
-        .then(res => res.json())
-        .then(data => setBooks(data))
-        .catch(error => console.error("Error fetching user's books:", error));
-    
-  }, [user]);
+
+ useEffect(() => {
+  if (!loading && user?.email) {
+    fetch(`http://localhost:5000/user/books?email=${encodeURIComponent(user.email)}`)
+      .then(res => res.json())
+      .then(data => setBooks(data))
+      .catch(error => console.error("Error fetching user's books:", error));
+  }
+}, [user, loading]);
 
   const handleDelete = (id) => {
     Swal.fire({

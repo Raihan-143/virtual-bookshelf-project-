@@ -8,9 +8,14 @@ const UpdateBook = () => {
   const [formData, setFormData] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/books/${id}`)
+    if(id){
+      fetch(`http://localhost:5000/books/${id}`)
       .then(res => res.json())
-      .then(data => setFormData(data));
+      .then(data => {
+        delete data._id
+        setFormData(data);
+      });
+    }
   }, [id]);
 
   const handleChange = e => {

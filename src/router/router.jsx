@@ -40,7 +40,7 @@ const router = createBrowserRouter([
           element:<PrivateRoute><MyBooks></MyBooks></PrivateRoute>
         },
         {
-          path:'/update-books/:id',
+          path:'/update/:id',
           element:<PrivateRoute><UpdateBook></UpdateBook></PrivateRoute>
         },
         {
