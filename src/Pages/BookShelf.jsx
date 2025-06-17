@@ -1,16 +1,25 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router';
+import Loading from '../Components/Loading';
 
 const Bookshelf = () => {
   const [books, setBooks] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [statusFilter, setStatusFilter] = useState('');
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetch('http://localhost:5000/books')
       .then(res => res.json())
-      .then(data => setBooks(data));
+      .then(data => {
+        setBooks(data);
+        setLoading(false);
+      })
+      .catch(err => {
+        console.log(err);
+        setLoading(false);
+      });
   }, []);
 
   const filteredBooks = books.filter(book => {
@@ -19,6 +28,10 @@ const Bookshelf = () => {
     const matchStatus = statusFilter ? book.reading_status === statusFilter : true;
     return (matchTitle || matchAuthor) && matchStatus;
   });
+
+   if (loading) {
+    return <Loading />; 
+  }
 
   return (
     <div className="max-w-7xl mx-auto p-4">
