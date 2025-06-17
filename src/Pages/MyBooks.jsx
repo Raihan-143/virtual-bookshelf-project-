@@ -14,7 +14,10 @@ console.log('user',user.email);
 
  useEffect(() => {
   if (!loading && user?.email) {
-    fetch(`http://localhost:5000/user/books?email=${encodeURIComponent(user.email)}`)
+    fetch(`http://localhost:5000/user/books?email=${encodeURIComponent(user.email)}`,{
+      credentials:'include'
+    }
+  )
       .then(res => res.json())
       .then(data => setBooks(data))
       .catch(error => console.error("Error fetching user's books:", error));
