@@ -1,4 +1,8 @@
 # 📚 Virtual Bookshelf
+<p align="center">
+  <img src="./read.png" alt="Banner" width="100%" />
+</p>
+
 
 A full-stack virtual bookshelf web application where users can explore, add, update, and delete books. Built using **Next.js** and **MongoDB**, this app features responsive UI, dark mode, and full CRUD functionality.
 
