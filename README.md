@@ -1,12 +1,57 @@
-# React + Vite
+# 📚 Virtual Bookshelf
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack virtual bookshelf web application where users can explore, add, update, and delete books. Built using **Next.js** and **MongoDB**, this app features responsive UI, dark mode, and full CRUD functionality.
 
-Currently, two official plugins are available:
+🔗 **Live Link:** [https://bespoke-chaja-0c4a6e.netlify.app/](https://bespoke-chaja-0c4a6e.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔧 Frontend: React.js (via Next.js), Tailwind CSS, Framer Motion
+- ⚙️ Backend: Next.js API Routes, MongoDB (with native driver or Mongoose)
+- 🔐 Auth (if used): Firebase Authentication or NextAuth (optional)
+- 🌐 Deployment: Netlify / Vercel
+
+---
+
+## 🚀 Features
+
+- 📖 View all books in a beautiful card layout
+- ➕ Add new books with title, author, and image
+- ✏️ Edit existing book details
+- ❌ Delete books from your shelf
+- 🌙 Dark mode support
+- 📱 Fully responsive design
+- 💫 Smooth animation and transitions
+
+---
+
+## 📦 Dependencies
+
+- `next`
+- `react`, `react-dom`
+- `tailwindcss`
+- `framer-motion`
+- `mongodb` or `mongoose`
+- (optional) `firebase`, `next-auth` if using auth
+
+---
+
+## 🖥️ Run Locally
+
+To run this project on your local machine:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/virtual-bookshelf.git
+cd virtual-bookshelf
+
+# 2. Install dependencies
+npm install
+
+# 3. Create a .env.local file with the following:
+MONGODB_URI=your_mongodb_connection_string
+
+# 4. Run the development server
+npm run dev
